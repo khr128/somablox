@@ -1,3 +1,19 @@
 %h1 Somablox
+%h2 for iPad
 
-.somablox-app
+%ul.nav.nav-tabs
+  %li.active
+    %a{:href => "#game", "data-toggle" => "tab"} Game
+  %li
+    %a{:href => "#controls", "data-toggle" => "tab"} Controls
+  %li
+    %a{:href => "#about", "data-toggle" => "tab"} About
+
+.tab-content
+  .tab-pane.active#game
+  .tab-pane#controls
+  .tab-pane#about
+
+%div#footer-spacer
+%div#footer
+  &copy; 2012 Dmitri Khrebtukov

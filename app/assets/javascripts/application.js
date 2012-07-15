@@ -12,5 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require template/somabloxApp.jst
+//= require twitter/bootstrap
+//= require template/game.jst
+//= require template/controls.jst
+//= require template/about.jst
 //= require_tree .

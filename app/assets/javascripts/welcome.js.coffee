@@ -4,4 +4,6 @@
 
 
 jQuery(document).ready ->
-  jQuery('.somablox-app').html JST['template/somabloxApp']()
+  jQuery('.tab-pane#game').html JST['template/game']()
+  jQuery('.tab-pane#controls').html JST['template/controls']()
+  jQuery('.tab-pane#about').html JST['template/about']()
